@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xmlns:taskpaneappor="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+  xsi:type="TaskPaneApp">
+  <Id>297062B1-1AF3-48BC-8AE3-BB25CAB9D4CA</Id>
+  <Version>1.0</Version>
+  <ProviderName>Microsoft</ProviderName>
+  <DefaultLocale>en-us</DefaultLocale>
+  <DisplayName DefaultValue="AppCommands My Templates">
+  </DisplayName>
+  <Description DefaultValue="Use this app to save text and images you can insert into a message with one click. This app will not share your data with any third-party service.">
+  </Description>
+  <IconUrl DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon.png" >
+  </IconUrl>
+  <HighResolutionIconUrl DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_large.png" >
+    <Host Name="Workbook"/>
+    <Host Name="Document"/>
+    <Host Name="Presentation"/>
+    <Host Name="Project"/>
+    <Host Name="Database"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="http://msdn.microsoft.com/en-us/library">
+    </SourceLocation>
+    <!--Only Incontent MOE can have both width and height-->
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
