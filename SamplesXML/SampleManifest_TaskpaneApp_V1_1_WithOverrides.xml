@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xmlns:taskpaneappor="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+  xsi:type="TaskPaneApp">
+  <Id>297062B1-1AF3-48BC-8AE3-BB25CAB9D4CA</Id>
+  <Version>1.0</Version>
+  <ProviderName>Microsoft</ProviderName>
+  <DefaultLocale>en-us</DefaultLocale>
+  <DisplayName DefaultValue="AppCommands My Templates">
+    <Override Locale="ar-sa" Value="القوالب" />
+    <Override Locale="da-dk" Value="Mine skabeloner" />
+    <Override Locale="de-de" Value="Meine Vorlagen" />
+    <Override Locale="es-co" Value="Mis plantillas" />
+    <Override Locale="es-es" Value="Mis plantillas" />
+    <Override Locale="es-mx" Value="Mis plantillas" />
+    <Override Locale="fi-fi" Value="Omat mallit" />
+    <Override Locale="fr-fr" Value="Mes modèles" />
+    <Override Locale="fr-ca" Value="Mes modèles" />
+    <Override Locale="he-il" Value="התבניות שלי" />
+    <Override Locale="it-it" Value="Modelli personali" />
+    <Override Locale="ja-jp" Value="マイ テンプレート" />
+    <Override Locale="ko-kr" Value="내 템플릿" />
+    <Override Locale="nl-be" Value="Mijn sjablonen" />
+    <Override Locale="nl-nl" Value="Mijn sjablonen" />
+    <Override Locale="pt-pt" Value="Os Meus Modelos" />
+    <Override Locale="pt-br" Value="Meus modelos" />
+    <Override Locale="pt-pt" Value="Meus modelos" />
+    <Override Locale="ru-ru" Value="Мои шаблоны" />
+    <Override Locale="sk-sk" Value="Moje šablóny" />
+    <Override Locale="sv-se" Value="Mina mallar" />
+    <Override Locale="zh-cn" Value="我的模板" />
+    <Override Locale="zh-hk" Value="我的範本" />
+    <Override Locale="zh-tw" Value="我的範本" />
+  </DisplayName>
+  <Description DefaultValue="Use this app to save text and images you can insert into a message with one click. This app will not share your data with any third-party service.">
+    <Override Locale="ar-sa" Value="استخدم هذا التطبيق لحفظ النص والصور التي يمكنك إدراجها في رسالة بنقرة واحدة. لن يشارك هذا التطبيق بياناتك مع أي خدمة تابعة لجهة خارجية." />
+    <Override Locale="da-dk" Value="Brug denne app til at gemme tekst og billeder, du kan indsætte i en meddelelse med et enkelt klik. Denne app deler ikke dine data med nogen tredjepartstjeneste." />
+    <Override Locale="de-de" Value="Mithilfe dieser App können Sie Text und Bilder speichern, die Sie dann mit einem Klick in eine Nachricht einfügen können. Diese App teilt Ihre Daten mit keinem Drittanbieterdienst." />
+    <Override Locale="es-co" Value="Utilice esta aplicación para guardar texto e imágenes que se puedan insertar en un mensaje con un solo clic. Esta aplicación no compartirá sus datos con ningún servicio de terceros." />
+    <Override Locale="es-es" Value="Utilice esta aplicación para guardar texto e imágenes que se puedan insertar en un mensaje con un solo clic. Esta aplicación no compartirá sus datos con ningún servicio de terceros." />
+    <Override Locale="es-mx" Value="Utilice esta aplicación para guardar texto e imágenes que se puedan insertar en un mensaje con un solo clic. Esta aplicación no compartirá sus datos con ningún servicio de terceros." />
+    <Override Locale="fi-fi" Value="Tämän sovelluksen avulla voit tallentaa viestiin yhdellä napsautuksella lisättäviä tekstiä ja kuvia. Tämä sovellus ei jaa tietojasi kolmansien osapuolten palveluille." />
+    <Override Locale="fr-fr" Value="Cette application permet d’enregistrer du texte et des images que vous pouvez insérer dans un message en un seul clic. Cette application ne partage pas vos données avec des services tiers." />
+    <Override Locale="fr-ca" Value="Cette application permet d’enregistrer du texte et des images que vous pouvez insérer dans un message en un seul clic. Cette application ne partage pas vos données avec des services tiers." />
+    <Override Locale="he-il" Value="השתמש ביישום זה כדי לשמור טקסט ותמונות שתוכל להוסיף להודעה בלחיצה אחת. יישום זה לא ישתף את הנתונים שלך עם שום שירות של צד שלישי." />
+    <Override Locale="it-it" Value="Questa app consente di salvare testo e immagini che è possibile inserire in un messaggio con un solo clic. L\'app non condividerà i tuoi dati con servizi di terzi." />
+    <Override Locale="ja-jp" Value="このアプリを使用すると、メッセージに挿入できるテキストと画像をクリック 1 回で保存できます。このアプリでは、お客様のデータはいかなるサード パーティ サービスにも共有されることはありません。" />
+    <Override Locale="ko-kr" Value="이 앱을 사용하면 클릭 한 번으로 메시지에 삽입할 수 있는 텍스트와 이미지를 저장할 수 있습니다. 이 앱은 사용자의 데이터를 타사 서비스와 공유하지 않습니다." />
+    <Override Locale="nl-be" Value="Gebruik deze app om tekst en afbeeldingen op te slaan die u met één klik in een bericht kunt invoegen. Uw gegevens worden in deze app niet gedeeld met services van derden." />
+    <Override Locale="nl-nl" Value="Gebruik deze app om tekst en afbeeldingen op te slaan die u met één klik in een bericht kunt invoegen. Uw gegevens worden in deze app niet gedeeld met services van derden." />
+    <Override Locale="pt-pt" Value="Utilize esta aplicação para guardar texto e imagens que pode inserir numa mensagem com um clique. Esta aplicação não partilhará os seus dados com serviços de terceiros." />
+    <Override Locale="pt-br" Value="Use este aplicativo para salvar texto e imagens que você pode inserir em uma mensagem com um único clique. Este aplicativo não compartilhará seus dados com nenhum serviço de terceiros." />
+    <Override Locale="pt-pt" Value="Use este aplicativo para salvar texto e imagens que você pode inserir em uma mensagem com um único clique. Este aplicativo não compartilhará seus dados com nenhum serviço de terceiros." />
+    <Override Locale="ru-ru" Value="Это приложение позволяет сохранять текст и изображения, которые затем можно вставлять в сообщения одним щелчком мыши. Это приложение не передает ваши данные в сторонние службы." />
+    <Override Locale="sk-sk" Value="Pomocou tejto aplikácie môžete uložiť text a obrázky, ktoré potom vložíte do správy jediným kliknutím. Táto aplikácia nebude vaše údaje zdieľať so žiadnou službou tretej strany." />
+    <Override Locale="sv-se" Value="Använd appen för att spara text och bilder som du kan infoga i ett meddelande med ett enda klick. Appen delar inte dina data med tredjepartstjänster." />
+    <Override Locale="zh-cn" Value="使用此应用，只要单击就能保存可插入邮件的文本和图像。此应用不会与任何第三方服务共享您的数据。" />
+    <Override Locale="zh-hk" Value="若使用此應用程式，只要按一下就能儲存可插入郵件的文字及影像。此應用程式不會與任何協力廠商服務共用您的資料。" />
+    <Override Locale="zh-tw" Value="若使用此應用程式，只要按一下就能儲存可插入郵件的文字及影像。此應用程式不會與任何協力廠商服務共用您的資料。" />
+  </Description>
+  <IconUrl DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon.png" >
+    <Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_arsa.png" />
+    <Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_dadk.png" />
+    <Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_dede.png" />
+    <Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_eses.png" />
+    <Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_eses.png" />
+    <Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_eses.png" />
+  </IconUrl>
+  <HighResolutionIconUrl DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_large.png" >
+    <Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_large_arsa.png" />
+    <Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_large_dadk.png" />
+    <Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_large_dede.png" />
+    <Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_large_eses.png" />
+    <Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_large_eses.png" />
+    <Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_top_icon_large_eses.png" />
+  </HighResolutionIconUrl>
+  <Hosts>
+    <Host Name="Workbook"/>
+    <Host Name="Document"/>
+    <Host Name="Presentation"/>
+    <Host Name="Project"/>
+    <Host Name="Database"/>
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="Selection" />
+    </Sets>
+  </Requirements>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="http://msdn.microsoft.com/en-us/library">
+      <Override Locale="ar-sa" Value="https://msdn.microsoft.com/ar-sa/library"></Override>
+      <Override Locale="da-dk" Value="http://msdn.microsoft.com/da-dk/library"></Override>
+      <Override Locale="de-de" Value="http://msdn.microsoft.com/de-de/library"></Override>
+      <Override Locale="es-co" Value="http://msdn.microsoft.com/es-co/library"></Override>
+      <Override Locale="es-es" Value="http://msdn.microsoft.com/es-es/library"></Override>
+      <Override Locale="es-mx" Value="http://msdn.microsoft.com/es-mx/library"></Override>
+    </SourceLocation>
+    <!--Only Incontent MOE can have both width and height-->
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+<VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+  <Description resid="residDescription" />
+  <Requirements>
+    <bt:Sets DefaultMinVersion="1.1">
+      <bt:Set Name="Settings" />
+    </bt:Sets>
+  </Requirements>
+  <Hosts>
+    <Host xsi:type="Workbook">
+       <AllFormFactors>
+        <ExtensionPoint xsi:type="CustomFunctions">
+           <Script>
+             <SourceLocation resid="residUDFjs" />
+           </Script>
+           <Page>
+             <SourceLocation resid="residUDFhtml" />
+           </Page>
+           <Metadata>
+             <SourceLocation resid="residUDFmetadata" />
+           </Metadata>
+           <Namespace resid="residNS" />
+        </ExtensionPoint>
+      </AllFormFactors>
+      <DesktopFormFactor>
+        <FunctionFile resid="residDesktopFuncUrl" />
+        <ExtensionPoint xsi:type="PrimaryCommandSurface">
+          <OfficeTab id="TabDefault">
+            <Group id="msgreadTabMessage.grp1">
+              <Label resid="residTemplateManagement" />
+              <Icon>
+                  <bt:Image size="16" resid="icon1_16x16" />
+                  <bt:Image size="32" resid="icon1_32x32" />
+                  <bt:Image size="80" resid="icon1_80x80" />
+              </Icon>
+              <Control xsi:type="Button" id="msgreadTabMessage.grp1.btnView">
+                <Label resid="residViewTemplates" />
+                <Supertip>
+                  <Title resid="residVewAndManageTemplates" />
+                  <Description resid="residViewManageTemplatesSprTip" />
+                </Supertip>
+                <Icon>
+                  <bt:Image size="16" resid="icon1_16x16" />
+                  <bt:Image size="32" resid="icon1_32x32" />
+                  <bt:Image size="80" resid="icon1_80x80" />
+                </Icon>
+                <Action xsi:type="ShowTaskpane">
+                  <TaskpaneId>1234567</TaskpaneId>
+                  <SourceLocation resid="residManageTemplatesUrl" />
+                </Action>
+                <Enabled>false</Enabled>
+              </Control>
+              <Control xsi:type="Menu" id="msgcompAppTab.grp1.mnu1">
+                <Label resid="residOperations" />
+                <Supertip>
+                  <Title resid="residOperations" />
+                  <Description resid="residOperationsGroupTip" />
+                </Supertip>
+                <Icon>
+                  <bt:Image size="16" resid="icon1_16x16" />
+                  <bt:Image size="32" resid="icon1_32x32" />
+                  <bt:Image size="80" resid="icon1_80x80" />
+                </Icon>
+                <Items>
+                  <Item id="msgcompAppTab.grp1.mnu1.itmAdd">
+                    <Label resid="residAddNew" />
+                    <Supertip>
+                      <Title resid="residAddNewTemplate" />
+                      <Description resid="residAddNewTemplateSuperTip" />
+                    </Supertip>
+                    <Action xsi:type="ShowTaskpane">
+                      <SourceLocation resid="residAddNewTemplateUrl" />
+                    </Action>
+                  </Item>
+                  <Item id="msgcompAppTab.grp1.mnu1.itmReplace">
+                    <Label resid="residConvertTags" />
+                    <Supertip>
+                      <Title resid="residConvertTags" />
+                      <Description resid="residConvertTip" />
+                    </Supertip>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>findAndReplaceTags</FunctionName>
+                    </Action>
+                  </Item>
+                </Items>
+              </Control>
+            </Group>
+          </OfficeTab>
+          <CustomTab id="msgreadAppTab">
+            <Group id="msgreadAppTab.grp1">
+              <Label resid="residTemplateManagement" />
+              <Icon>
+                  <bt:Image size="16" resid="icon1_16x16" />
+                  <bt:Image size="32" resid="icon1_32x32" />
+                  <bt:Image size="80" resid="icon1_80x80" />
+              </Icon>
+              <Control xsi:type="Menu" id="msgreadAppTab.grp1.mnu1">
+                <Label resid="residOperations" />
+                <Supertip>
+                  <Title resid="residOperations" />
+                  <Description resid="residOperationsGroupTip" />
+                </Supertip>
+                <Icon>
+                  <bt:Image size="16" resid="icon1_16x16" />
+                  <bt:Image size="32" resid="icon1_32x32" />
+                  <bt:Image size="80" resid="icon1_80x80" />
+                </Icon>
+                <Items>
+                  <Item id="msgreadAppTab.grp1.mnu1.itmAdd">
+                    <Label resid="residAddNew" />
+                    <Supertip>
+                      <Title resid="residAddNewTemplate" />
+                      <Description resid="residAddNewTemplateSuperTip" />
+                    </Supertip>
+                    <Action xsi:type="ShowTaskpane">
+                      <TaskpaneId>abcdef</TaskpaneId>
+                      <SourceLocation resid="residAddNewTemplateUrl" />
+                    </Action>
+                  </Item>
+                </Items>
+              </Control>
+              <Control xsi:type="Button" id="msgreadAppTab.grp1.btnView">
+                <Label resid="residViewTemplates" />
+                <Supertip>
+                  <Title resid="residVewAndManageTemplates" />
+                  <Description resid="residViewManageTemplatesSprTip" />
+                </Supertip>
+                <Icon>
+                  <bt:Image size="16" resid="icon1_16x16" />
+                  <bt:Image size="32" resid="icon1_32x32" />
+                  <bt:Image size="80" resid="icon1_80x80" />
+                </Icon>
+                <Action xsi:type="ShowTaskpane">
+                  <SourceLocation resid="residManageTemplatesUrl" />
+                </Action>
+              </Control>
+              <OfficeControl id="Undo" />
+            </Group>
+            <OfficeGroup id="Font" />
+            <Label resid="residMyTemplates" />
+            <InsertBefore>TabHome</InsertBefore>
+          </CustomTab>
+        </ExtensionPoint>
+        <!-- Unknown extension point that implicitly tests skipping unrecognized extension points properly without failing parse -->
+        <ExtensionPoint xsi:type="BackgroundEvents_Unknown">
+            <Event xsi:type="OnDocClose" func="myFunc" sourceLocation="foo.html" />
+            <Event xsi:type="OnNewDocument">
+                <Source resid="residSomething" />
+                <Html resid="residSomethingHtml" />
+            </Event>
+        </ExtensionPoint>
+    </DesktopFormFactor>
+    </Host>
+  </Hosts>
+  <Resources>
+    <bt:Images>
+      <bt:Image id="icon1_16x16" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_small.png" >
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_small_arsa.png" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_small_dadk.png" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_small_dede.png" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_small_eses.png" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_small_eses.png" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_small_eses.png" />
+      </bt:Image>
+      <bt:Image id="icon1_32x32" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon.png" >
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_arsa.png" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_dadk.png" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_dede.png" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_eses.png" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_eses.png" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_eses.png" />
+      </bt:Image>
+      <bt:Image id="icon1_80x80" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_large.png" >
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_large_arsa.png" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_large_dadk.png" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_large_dede.png" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_large_eses.png" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_large_eses.png" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/images/app_icon_large_eses.png" />
+      </bt:Image>
+    </bt:Images>
+    <bt:Urls>
+      <bt:Url id="residDesktopFuncUrl" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode.html" >
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residManageTemplatesUrl" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp.html">
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residAddNewTemplateUrl" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp.html">
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residTabletFuncUrl" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_tab.html" >
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_tab.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_tab.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_tab.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_tab.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_tab.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_tab.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residUDFjs" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/udf.js" >
+      </bt:Url>
+      <bt:Url id="residUDFhtml" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/udf.html" >
+      </bt:Url>
+      <bt:Url id="residUDFmetadata" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/udf.json" >
+      </bt:Url>
+      <bt:Url id="residManageTemplatesUrlTablet" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_tab.html">
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_tab.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_tab.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_tab.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_tab.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_tab.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_tab.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residAddNewTemplateUrlTablet" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_tab.html">
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_tab.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_tab.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_tab.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_tab.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_tab.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_tab.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residPhoneFuncUrl" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_ph.html" >
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_ph.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_ph.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_ph.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_ph.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_ph.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_ph.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residManageTemplatesUrlPhone" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_ph.html">
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_ph.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_ph.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_ph.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_ph.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_ph.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_mngtp_ph.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residAddNewTemplateUrlPhone" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_ph.html">
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_ph.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_ph.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_ph.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_ph.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_ph.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_appcmdcode_addnewtp_ph.html?lcid=es-es" />
+      </bt:Url>
+      <bt:Url id="residCustomPaneUrl" DefaultValue="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_custompane.html">
+        <bt:Override Locale="ar-sa" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_custompane.html?lcid=ar-sa" />
+        <bt:Override Locale="da-dk" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_custompane.html?lcid=da-dk" />
+        <bt:Override Locale="de-de" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_custompane.html?lcid=de-de" />
+        <bt:Override Locale="es-co" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_custompane.html?lcid=es-es" />
+        <bt:Override Locale="es-es" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_custompane.html?lcid=es-es" />
+        <bt:Override Locale="es-mx" Value="https://primary.exchange.microsoft.com/owa/966bf5b1-37dd-4a15-9ef9-68aca7342480%40exchange.microsoft.com/prem/15.1.112.1/ext/def/a216ceed-7791-4635-a752-5a4ac0a5eb93/page_custompane.html?lcid=es-es" />
+      </bt:Url>
+    </bt:Urls>
+    <bt:ShortStrings>
+      <bt:String id="residTemplateManagement" DefaultValue="Template Management">
+        <bt:Override Locale="ar-sa" Value="قالب الإدارة" />
+        <bt:Override Locale="da-dk" Value="Skabelon Management" />
+        <bt:Override Locale="de-de" Value="Vorlagenverwaltung" />
+        <bt:Override Locale="es-co" Value="Gestión de plantilla" />
+        <bt:Override Locale="es-es" Value="Gestión de plantilla" />
+        <bt:Override Locale="es-mx" Value="Gestión de plantilla" />
+      </bt:String>
+      <bt:String id="residViewTemplates" DefaultValue="View Templates">
+        <bt:Override Locale="ar-sa" Value="عرض قوالب" />
+        <bt:Override Locale="da-dk" Value="Se skabeloner" />
+        <bt:Override Locale="de-de" Value="Vorlagen anzeigen" />
+        <bt:Override Locale="es-co" Value="Ver plantillas" />
+        <bt:Override Locale="es-es" Value="Ver plantillas" />
+        <bt:Override Locale="es-mx" Value="Ver plantillas" />
+      </bt:String>
+      <bt:String id="residVewAndManageTemplates" DefaultValue="View and Manage Templates">
+        <bt:Override Locale="ar-sa" Value="عرض وإدارة القوالب" />
+        <bt:Override Locale="da-dk" Value="Se og Administrer Skabeloner" />
+        <bt:Override Locale="de-de" Value="Anzeigen und Verwalten von Vorlagen" />
+        <bt:Override Locale="es-co" Value="VVer y administrar las plantillas" />
+        <bt:Override Locale="es-es" Value="Ver y administrar las plantillas" />
+        <bt:Override Locale="es-mx" Value="Ver y administrar las plantillas" />
+      </bt:String>
+      <bt:String id="residMyTemplates" DefaultValue="My Templates">
+        <bt:Override Locale="ar-sa" Value="القوالب الخاصة بي" />
+        <bt:Override Locale="da-dk" Value="Mine skabeloner" />
+        <bt:Override Locale="de-de" Value="Meine Vorlagen" />
+        <bt:Override Locale="es-co" Value="Mis plantillas" />
+        <bt:Override Locale="es-es" Value="Mis plantillas" />
+        <bt:Override Locale="es-mx" Value="Mis plantillas" />
+      </bt:String>
+      <bt:String id="residOperations" DefaultValue="Operations">
+        <bt:Override Locale="ar-sa" Value="عمليات" />
+        <bt:Override Locale="da-dk" Value="Operationer" />
+        <bt:Override Locale="de-de" Value="Operationen" />
+        <bt:Override Locale="es-co" Value="Operaciones de" />
+        <bt:Override Locale="es-es" Value="Operaciones de" />
+        <bt:Override Locale="es-mx" Value="Operaciones de" />
+      </bt:String>
+      <bt:String id="residAddNew" DefaultValue="Add New">
+        <bt:Override Locale="ar-sa" Value="إضافة جديد" />
+        <bt:Override Locale="da-dk" Value="Tilføj ny" />
+        <bt:Override Locale="de-de" Value="Fügen neuer hinzun" />
+        <bt:Override Locale="es-co" Value="Agregar nuevo" />
+        <bt:Override Locale="es-es" Value="Agregar nuevo" />
+        <bt:Override Locale="es-mx" Value="Agregar nuevo" />
+      </bt:String>
+      <bt:String id="residAddNewTemplate" DefaultValue="Add New Template">
+        <bt:Override Locale="ar-sa" Value="إضافة قالب جديد" />
+        <bt:Override Locale="da-dk" Value="Tilføj ny skabelon" />
+        <bt:Override Locale="de-de" Value="Neue Vorlage hinzufügen" />
+        <bt:Override Locale="es-co" Value="Añadir nueva plantilla" />
+        <bt:Override Locale="es-es" Value="Añadir nueva plantilla" />
+        <bt:Override Locale="es-mx" Value="Añadir nueva plantilla" />
+      </bt:String>
+      <bt:String id="residConvertTags" DefaultValue="Convert Tags">
+        <bt:Override Locale="ar-sa" Value="تحويل العلامات" />
+        <bt:Override Locale="da-dk" Value="Konvertere Tags" />
+        <bt:Override Locale="de-de" Value="Tags zu konvertieren" />
+        <bt:Override Locale="es-co" Value="Convertir Etiquetas" />
+        <bt:Override Locale="es-es" Value="Convertir Etiquetas" />
+        <bt:Override Locale="es-mx" Value="Convertir Etiquetas" />
+      </bt:String>
+      <bt:String id="residNS" DefaultValue="NS">
+      </bt:String>
+    </bt:ShortStrings>
+    <bt:LongStrings>
+      <bt:String id="residDescription" DefaultValue="Use this app to automatically scan outgoing mails and insert content according to customizable mark-up. This app will not share your data with any third-party service.">
+        <bt:Override Locale="ar-sa" Value="استخدام هذا التطبيق تلقائياً تفحص البريد الصادر والوارد وإدراج المحتوى حسب علامة المتابعة للتخصيص. هذا التطبيق لن مشاركة البيانات الخاصة بك مع أي خدمة الطرف الثالث." />
+        <bt:Override Locale="da-dk" Value="Brug denne app til at automatisk scanne udgående mails og indsætte indhold ifølge tilpasselig mark-up. Denne app vil ikke dele dine data med enhver tredjeparts-service." />
+        <bt:Override Locale="de-de" Value="Verwenden Sie diese Anwendung automatisch ausgehende Mails Scannen und Einfügen von Inhalten entsprechend anpassbaren Aufschlag. Diese app teilen Ihre Daten nicht mit jedem Third Party-Service." />
+        <bt:Override Locale="es-co" Value="Utilice esta aplicación automáticamente escanear los correos salientes y insertar contenido según marcación personalizable. Esta aplicación no compartirá sus datos con cualquier servicio de terceros." />
+        <bt:Override Locale="es-es" Value="Utilice esta aplicación automáticamente escanear los correos salientes y insertar contenido según marcación personalizable. Esta aplicación no compartirá sus datos con cualquier servicio de terceros." />
+        <bt:Override Locale="es-mx" Value="Utilice esta aplicación automáticamente escanear los correos salientes y insertar contenido según marcación personalizable. Esta aplicación no compartirá sus datos con cualquier servicio de terceros." />
+      </bt:String>
+      <bt:String id="residTemplateManagementTip" DefaultValue="Operations for managing your template collection">
+        <bt:Override Locale="ar-sa" Value="عمليات لإدارة مجموعة القالب الخاص بك" />
+        <bt:Override Locale="da-dk" Value="Operationer til styring af din skabelon samling" />
+        <bt:Override Locale="de-de" Value="Operationen für die Verwaltung Ihrer Vorlagen-Sammlung" />
+        <bt:Override Locale="es-co" Value="Operaciones para gestionar tu colección de plantilla" />
+        <bt:Override Locale="es-es" Value="Operaciones para gestionar tu colección de plantilla" />
+        <bt:Override Locale="es-mx" Value="Operaciones para gestionar tu colección de plantilla" />
+      </bt:String>
+      <bt:String id="residViewTemplatesTip" DefaultValue="Open a taskpane to display and manage your current templates">
+        <bt:Override Locale="ar-sa" Value="افتح من جزء مهام عرض وإدارة القوالب الخاصة بك الحالية" />
+        <bt:Override Locale="da-dk" Value="Åbne en opgaverude for at vise og administrere dit nuværende skabeloner" />
+        <bt:Override Locale="de-de" Value="Öffnen Sie ein Taskpane Anzeige und Verwaltung Ihrer aktuellen Vorlagen" />
+        <bt:Override Locale="es-co" Value="Abrir un panel de tareas para visualizar y gestionar sus plantillas actuales" />
+        <bt:Override Locale="es-es" Value="Abrir un panel de tareas para visualizar y gestionar sus plantillas actuales" />
+        <bt:Override Locale="es-mx" Value="Abrir un panel de tareas para visualizar y gestionar sus plantillas actuales" />
+      </bt:String>
+      <bt:String id="residViewManageTemplatesSprTip" DefaultValue="Open a taskpane that will display all templates saved under your profile and default templates provided by the service. From this pane you can add, remove, or change template properties.">
+        <bt:Override Locale="ar-sa" Value="فتح جزء مهام التي سيتم عرض كافة القوالب المحفوظة تحت القوالب الخاصة بك الشخصية والافتراضية الموفرة من قبل الخدمة. من هذا الجزء يمكنك إضافة أو إزالة أو تغيير خصائص القالب." />
+        <bt:Override Locale="da-dk" Value="Åbne en opgaverude, der vises alle skabeloner gemt under din profil og standard skabeloner leveret af tjenesten. Fra dette vindue kan du tilføje, fjerne eller ændre egenskaber for artikelskabelon." />
+        <bt:Override Locale="de-de" Value="Öffnen Sie ein Taskpane, das alle Vorlagen gespeichert unter Ihrem Profil und Standard-Vorlagen des Dienstes anzeigt. Aus diesem Bereich können Sie hinzufügen, entfernen oder Ändern von Eigenschaften." />
+        <bt:Override Locale="es-co" Value="Abre un panel de tareas que mostrará todas las plantillas que guardan en sus plantillas de perfil y por defecto proporcionados por el servicio. Desde este panel que puede agregar, quitar o cambiar las propiedades de plantilla." />
+        <bt:Override Locale="es-es" Value="Abre un panel de tareas que mostrará todas las plantillas que guardan en sus plantillas de perfil y por defecto proporcionados por el servicio. Desde este panel que puede agregar, quitar o cambiar las propiedades de plantilla." />
+        <bt:Override Locale="es-mx" Value="Abre un panel de tareas que mostrará todas las plantillas que guardan en sus plantillas de perfil y por defecto proporcionados por el servicio. Desde este panel que puede agregar, quitar o cambiar las propiedades de plantilla." />
+      </bt:String>
+      <bt:String id="residMyTemplatesTabTip" DefaultValue="Insert content from a saved collection of prepared data, or embed tags into your mail that are automatically replaced on send!">
+        <bt:Override Locale="ar-sa" Value="إدراج المحتوى من مجموعة محفوظة من بيانات معدّة، أو تضمين العلامات إلى البريد الخاص بك يتم تلقائياً استبدال على إرسال!" />
+        <bt:Override Locale="da-dk" Value="Indsætte indholdet fra en gemt samling af forberedte data, eller integrere tags i din mail, der erstattes automatisk på send!" />
+        <bt:Override Locale="de-de" Value="Inhalte aus einer gespeicherten Auflistung von vorbereiteten Daten einfügen, oder embed-Tag in Ihre Mail, die automatisch auf senden ersetzt werden!" />
+        <bt:Override Locale="es-co" Value="Insertar el contenido de una colección guardada de datos preparados o incrustar etiquetas en el correo que se sustituyen automáticamente en enviar!" />
+        <bt:Override Locale="es-es" Value="Insertar el contenido de una colección guardada de datos preparados o incrustar etiquetas en el correo que se sustituyen automáticamente en enviar!" />
+        <bt:Override Locale="es-mx" Value="Insertar el contenido de una colección guardada de datos preparados o incrustar etiquetas en el correo que se sustituyen automáticamente en enviar!" />
+      </bt:String>
+      <bt:String id="residOperationsGroupTip" DefaultValue="App Template Operations">
+        <bt:Override Locale="ar-sa" Value="عمليات التطبيق قالب" />
+        <bt:Override Locale="da-dk" Value="App skabelon operationer" />
+        <bt:Override Locale="de-de" Value="App-Vorlage-Operationen" />
+        <bt:Override Locale="es-co" Value="Operaciones de la plantilla de la aplicación" />
+        <bt:Override Locale="es-es" Value="Operaciones de la plantilla de la aplicación" />
+        <bt:Override Locale="es-mx" Value="Operaciones de la plantilla de la aplicación" />
+      </bt:String>
+      <bt:String id="residAddNewTip" DefaultValue="Add currently selected text as a new template">
+        <bt:Override Locale="ar-sa" Value="إضافة النص المحدد حاليا كقالب جديد" />
+        <bt:Override Locale="da-dk" Value="Tilføj aktuelt markerede tekst som en ny skabelon" />
+        <bt:Override Locale="de-de" Value="Markierten Text als eine neue Vorlage hinzufügen" />
+        <bt:Override Locale="es-co" Value="Agregar texto seleccionado actualmente como una plantilla nueva" />
+        <bt:Override Locale="es-es" Value="Agregar texto seleccionado actualmente como una plantilla nueva" />
+        <bt:Override Locale="es-mx" Value="Agregar texto seleccionado actualmente como una plantilla nueva" />
+      </bt:String>
+      <bt:String id="residAddNewTemplateSuperTip" DefaultValue="Opens a taskpane allowing you to enter information about the current selection and turn it into a template to be stored for later insertion.">
+        <bt:Override Locale="ar-sa" Value="يفتح جزء مهام مما يسمح لك بإدخال معلومات حول التحديد الحالي وتحويله إلى قالب ليتم تخزينها للإدراج في وقت لاحق." />
+        <bt:Override Locale="da-dk" Value="Åbner en opgaverude, så du kan angive oplysninger om den aktuelle markering og gøre det til en skabelon til at blive oplagt nemlig senere indsættelse." />
+        <bt:Override Locale="de-de" Value="Öffnet ein Taskpane, so dass Sie Informationen über die aktuelle Auswahl eingeben und daraus eine Vorlage für spätere Einfügung gespeichert werden." />
+        <bt:Override Locale="es-co" Value="Abre un panel de tareas que permite introducir información acerca de la selección actual y convertirlo en una plantilla para ser almacenado para su posterior inserción." />
+        <bt:Override Locale="es-es" Value="Abre un panel de tareas que permite introducir información acerca de la selección actual y convertirlo en una plantilla para ser almacenado para su posterior inserción." />
+        <bt:Override Locale="es-mx" Value="Abre un panel de tareas que permite introducir información acerca de la selección actual y convertirlo en una plantilla para ser almacenado para su posterior inserción." />
+      </bt:String>
+      <bt:String id="residConvertTip" DefaultValue="Scan mail for tags and replace each one found with associated template">
+        <bt:Override Locale="ar-sa" Value="فحص البريد للعلامات، ويحل محل كل واحد يتم العثور على قالب المقترنة" />
+        <bt:Override Locale="da-dk" Value="Scan mail for tags og erstatte hver enkelt fundet med tilknyttede skabelon" />
+        <bt:Override Locale="de-de" Value="Scannen Sie Mail für Tags und ersetzen Sie jeweils mit zugehörigen Vorlage gefunden" />
+        <bt:Override Locale="es-co" Value="Analice el correo para etiquetas y reemplacemos cada uno encontró con plantilla asociada" />
+        <bt:Override Locale="es-es" Value="Analice el correo para etiquetas y reemplacemos cada uno encontró con plantilla asociada" />
+        <bt:Override Locale="es-mx" Value="Analice el correo para etiquetas y reemplacemos cada uno encontró con plantilla asociada" />
+      </bt:String>
+    </bt:LongStrings>
+  </Resources>
+  <WebApplicationInfo>
+    <Id>c62f9f19-d901-48c8-a184-9a69d83305bc</Id>
+    <Resource>https://api.contoso.com</Resource>
+    <Scopes>
+      <Scope>https://graph.outlook.com/Mail.Read</Scope>
+      <Scope>https://graph.microsoft.com/Files.Read</Scope>
+    </Scopes>
+    <Authorizations>
+      <Authorization>
+        <Resource>https://api.contoso.com</Resource>
+        <Scopes>
+          <Scope>profile</Scope>
+          <Scope>files.read.all</Scope>
+          <Scope>user.read</Scope>
+          <Scope>offline_access</Scope>
+        </Scopes>
+      </Authorization>
+      <Authorization>
+        <Resource>https://shredder-us.osi.office.net/</Resource>
+        <Scopes>
+          <Scope>profile</Scope>
+          <Scope>files.read.all</Scope>
+          <Scope>user.read</Scope>
+          <Scope>offline_access</Scope>
+        </Scopes>
+      </Authorization>
+    </Authorizations>
+  </WebApplicationInfo>
+  <EquivalentAddins>
+    <EquivalentAddin>
+      <ProgId>Bar Addin</ProgId>
+      <DisplayName>Bar Addin</DisplayName>
+      <Type>COM</Type>
+    </EquivalentAddin>
+    <EquivalentAddin>
+      <FileName>foo.xll</FileName>
+      <Type>XLL</Type>
+    </EquivalentAddin>
+  </EquivalentAddins>
+  <ConnectedServiceControls>
+    <Scopes>
+      <Scope>AnalyzeUserContent</Scope>
+      <Scope>Controller</Scope>
+    </Scopes>
+  </ConnectedServiceControls>
+</VersionOverrides>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <SignedInfo>
+    <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <Reference URI="">
+      <Transforms>
+        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      </Transforms>
+      <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <DigestValue>f6AKc0lEvKJD55ZwgWkMJYyV1VQ=</DigestValue>
+    </Reference>
+  </SignedInfo>
+  <SignatureValue>
+    X+NhxuAloBd6UcjX2sBanzMmJk+UyA1ktqjQ34xFNH1mkkmAZ/SgKXfpHog9/67cAdJHvAIV
+    RQ+/RLB36xS4SSxQsaodyeRqPkTxBS5d4l+09MJNpRVlq7FYOIw3BD/q5yGFn0Ckan+jGm+i
+    PxfsV20v3OH7BDNDydFTFm/xpPF/fTQjUwAFDVM9+iDjh2fmMiSPgKeGrnKXxCfXKSLQEqlH
+    mftXjpkBSECqrYJSgIwbTp5mjSxgk7UP1Hcm6LZYJul8GeAm1n3rXW5o3MxeE9YD2HcdJBZI
+    80Dw8mTCnjWPMOIKn7xS8kzcJR3P7ofwfxG+ZkYK1BoJPuW6+6GMuA==
+  </SignatureValue>
+  <KeyInfo>
+    <KeyValue>
+      <RSAKeyValue>
+        <Modulus>
+          rPxSHfqAFAKaTU9NSjgDHY3ZcQh8BiRJgnH1LrXs9sdb5+t6LlW0Pk41GWD2zmyhh/GjMajj
+          BajqaHpwJrtOgP32mbYmVpgW/iqAHaFTGx1Pe3OgU2uOjg+T6GDs+OiWJx4ypikQTvDkUNzv
+          r4CRcnqVkFnZlrtvMEaMCYodxEdRX8Qn0MXWKpZ7AiXQUKEOyUcOfMhfyLePuwBuXp9tVEt8
+          KolnUfPVMHBXnaLx6s5jKkmrldjh7RbRvL2i8m7KVlox4OhLtQqFG5ieoEsaCgFv7kg8E7go
+          wav9dSJn01kF8e83K++B0FLTlHTh0+rj0u//0zsus7zrjKuluDylTw==
+        </Modulus>
+        <Exponent>AQAB</Exponent>
+      </RSAKeyValue>
+    </KeyValue>
+    <X509Data>
+      <X509Certificate>
+        MIIFFTCCA/2gAwIBAgITMwAAAMRNVrRnTUu3DgABAAAAxDANBgkqhkiG9w0BAQUFADB5MQsw
+        CQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwG
+        A1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSMwIQYDVQQDExpNaWNyb3NvZnQgQ29kZSBT
+        aWduaW5nIFBDQTAeFw0xNDAzMjYyMDA4MTNaFw0xNTA2MjYyMDA4MTNaMIGgMQswCQYDVQQG
+        EwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMV
+        TWljcm9zb2Z0IENvcnBvcmF0aW9uMQ0wCwYDVQQLEwRNT1BSMTswOQYDVQQDEzJNaWNyb3Nv
+        ZnQgQ29ycG9yYXRpb24gVGhpcmQtUGFydHkgQXBwIERpc3RyaWJ1dGlvbjCCASIwDQYJKoZI
+        hvcNAQEBBQADggEPADCCAQoCggEBAKz8Uh36gBQCmk1PTUo4Ax2N2XEIfAYkSYJx9S617PbH
+        W+frei5VtD5ONRlg9s5soYfxozGo4wWo6mh6cCa7ToD99pm2JlaYFv4qgB2hUxsdT3tzoFNr
+        jo4Pk+hg7PjoliceMqYpEE7w5FDc76+AkXJ6lZBZ2Za7bzBGjAmKHcRHUV/EJ9DF1iqWewIl
+        0FChDslHDnzIX8i3j7sAbl6fbVRLfCqJZ1Hz1TBwV52i8erOYypJq5XY4e0W0by9ovJuylZa
+        MeDoS7UKhRuYnqBLGgoBb+5IPBO4KMGr/XUiZ9NZBfHvNyvvgdBS05R04dPq49Lv/9M7LrO8
+        64yrpbg8pU8CAwEAAaOCAWwwggFoMB8GA1UdJQQYMBYGCCsGAQUFBwMDBgorBgEEAYI3TAEB
+        MB0GA1UdDgQWBBTWhiiD8Dmt5K6DslbyPR7n0uYHhzBRBgNVHREESjBIpEYwRDENMAsGA1UE
+        CxMETU9QUjEzMDEGA1UEBRMqMzE2MDMrMjM0OTQ1YzMtOWY2Mi00NmFkLWFhYTUtNzRjMjcx
+        ZGE0YjMzMB8GA1UdIwQYMBaAFMsR6MrStBZYAck3LjMWFrlMmgofMFYGA1UdHwRPME0wS6BJ
+        oEeGRWh0dHA6Ly9jcmwubWljcm9zb2Z0LmNvbS9wa2kvY3JsL3Byb2R1Y3RzL01pY0NvZFNp
+        Z1BDQV8wOC0zMS0yMDEwLmNybDBaBggrBgEFBQcBAQROMEwwSgYIKwYBBQUHMAKGPmh0dHA6
+        Ly93d3cubWljcm9zb2Z0LmNvbS9wa2kvY2VydHMvTWljQ29kU2lnUENBXzA4LTMxLTIwMTAu
+        Y3J0MA0GCSqGSIb3DQEBBQUAA4IBAQB3gAvkD/YqAntXlt7759GB8C2T9cCatzgOe1e19TDA
+        JvUnIHGlaZNqdITfdFsfvptbUVbuqfJfuqPurAqNEVVp1qCEkbgP/tDym/V2hfT9h3BZPaio
+        FLDJ2S58x76K6Jg3pNRAZ/W9XEVPAa/N5hqIU7xnk6d5ZODY/fg9BbrAZnd5nZBOqZ+mSirt
+        QFraFkJdg9Fch9VezoQnahmNxFDTjCVPaCcWwJoRRzmcQvVg5PIS79CJ4QnKNRfEMJL1TBzn
+        6sMJb5wtAjSBLmryCvYx8bQTzpgTdGEVNoetyhRn4QPyrpzvoceGYtdGHtCWj6i8gqG3MPSL
+        Ea2KgJ39U839
+      </X509Certificate>
+    </X509Data>
+    <X509Data>
+      <X509Certificate>
+        MIIFmTCCA4GgAwIBAgIQea0WoUqgpa1Mc1j0BxMuZTANBgkqhkiG9w0BAQUFADBfMRMwEQYK
+        CZImiZPyLGQBGRYDY29tMRkwFwYKCZImiZPyLGQBGRYJbWljcm9zb2Z0MS0wKwYDVQQDEyRN
+        aWNyb3NvZnQgUm9vdCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkwHhcNMDEwNTA5MjMxOTIyWhcN
+        MjEwNTA5MjMyODEzWjBfMRMwEQYKCZImiZPyLGQBGRYDY29tMRkwFwYKCZImiZPyLGQBGRYJ
+        bWljcm9zb2Z0MS0wKwYDVQQDEyRNaWNyb3NvZnQgUm9vdCBDZXJ0aWZpY2F0ZSBBdXRob3Jp
+        dHkwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDzXfqAZ9Rap6kMLJAg0DUIPHWE
+        zbcHiZyJ2t7Ow2D6kWhanpRxKRh2fMLgyCV2lA5Y+gQ0Nubfr/eAuulYCyuT5Z0F43cikfc0
+        ZDwikR1e4QmQvBT+/HVYGeF5tweSo66IWQjYnwfKA1j8aCltMtfSqMtL/OELSDJP5uu4rU/k
+        XG8TlJnbldV126gat5SRtHdb9UgMj2p5fRRwBH1tr5D12nDYR7e/my9s5wW34RFgrHmRFHzF
+        1qbk4X7Vw37lktI8ALU2gt554W3ztW74nzPJy1J9c5g224uha6KVl5uj3sJNJv8GlmclBsjn
+        rOTuEjOVMZnINQhONMp5U9W1vmMyWUA2wKVOBE0921sHM+RYv+8/U2TYQlk1V/0PRXwkBE2e
+        1jh0EZcikM5oRHSSb9VLb7CG48c2QqDQ/MHAWvmjYbkwR3GWChawkcBCle8Qfyhq4yofseTN
+        Az93cQTHIPxJDx1FiKTXy36IrY4t7EXbxFEEySr87IaemhGXW97OU4jm4rf9rJXCKEDb7wSQ
+        34EzOdmyRaUjhwalVYkxuwYtYA5BGH0fLrWXyxHrFdUkpZTvFRSJ/Utz+jJb/NEzAPlZYnAH
+        Muouq0Ate8rdIWcbMJmPFqojqEHRsG4RmzbE3kB0nOFYZcFgHnpbOMiPuwQmfNQWQOW2a2yq
+        hv0Av87BNQIDAQABo1EwTzALBgNVHQ8EBAMCAcYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4E
+        FgQUDqyCYEBWJ5flJRP8KuEKU5VZ5KQwEAYJKwYBBAGCNxUBBAMCAQAwDQYJKoZIhvcNAQEF
+        BQADggIBAMURTQM6YN1dUhF3j7K7NsiyBb+0t6jYIJ1cEwO2HCL6BhM1tshj1JpHbyZX0lXx
+        BLEmX9apUGigvNK4bszD6azfGc14rFl0rGY0NsQbPmw4TDMOMBINoyb+UVMA/69aToQNDx/k
+        bQUuToVLjWwzb1TSZKu/UK99ejmgN+1jAw/8EwbOFjbUVDuVG1FiOuVNF9QFOZKaJ6hbqr3s
+        u77jIIlgcWxWs6UT0G0OI36VA+1oPfLYY7hrTbboMLXhypRL96KqXZkwsj2nwlFsKCABJCcr
+        SwC3nRFrcL6yEIK8DJto0I07JIeqmShynTNfWZC99d6TnjpiWjQ54ohVHbkGsMGJay3XacMZ
+        EjaE0Mmg2v8vaXiy5Xra69cMwPe9Yxe4ORM4ojZbe/KFVmodZGLBOOKqv1FmopT1EpxmIhBr
+        8rcwki3yKfA9OxRDaKLxnCk3y844ICVtfGfzfiQSJAMIgUfspZ6X9RjXz7vV73aW7/3O21ad
+        laBC+ZdY4dcxItNfWeY+biIA6kOEtiXb2fMIVmjAZGsdfOy2k6JiV24u2OdYj8QxSSbd3ik1
+        h/UwcXBbFDxpvYkSfesuo/7Yf56CWlIKK8FDK9kwiJ/IEPuJjeahhXUzfmye23MTZGJppS99
+        ypZtn/gETTCSPW4hFCHJPeDD/YprnUr90aGdmUN3P7Da
+      </X509Certificate>
+    </X509Data>
+    <X509Data>
+      <X509Certificate>
+        MIIFvDCCA6SgAwIBAgIKYTMmGgAAAAAAMTANBgkqhkiG9w0BAQUFADBfMRMwEQYKCZImiZPy
+        LGQBGRYDY29tMRkwFwYKCZImiZPyLGQBGRYJbWljcm9zb2Z0MS0wKwYDVQQDEyRNaWNyb3Nv
+        ZnQgUm9vdCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkwHhcNMTAwODMxMjIxOTMyWhcNMjAwODMx
+        MjIyOTMyWjB5MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMH
+        UmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSMwIQYDVQQDExpNaWNy
+        b3NvZnQgQ29kZSBTaWduaW5nIFBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+        ALJyWVwZMGS/HZpgICBCmXZTbD4b1m/My/Hqa/6XFhDg3zp0gxq3L6Ay7P/ewkJOI9VyANs1
+        VwqJyq4gSfTwaKxNS42lvXlLcZtHB9r9Jd+ddYjPqnNEf9eB2/O98jakyVxF3K+tPeAoaJca
+        p6Vyc1bxF5Tk/TWUcqDWdl8ed0WDhTgW0HNbBbpnUo2lsmkv2hkL/pJ0KeJ2L1TdFDBZ+NKN
+        Yv3LyV9GMVC5JxPkQDDPcikQKCLHN049oDI9kM2hOAaFXE5WgigqBTK3S9dPY+fSLWLxRT3n
+        rAgA9kahntFbjCZT6HqqSvJGzzc8OJ60d1ylF56NyxGPVjzBrAlfA9MCAwEAAaOCAV4wggFa
+        MA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFMsR6MrStBZYAck3LjMWFrlMmgofMAsGA1Ud
+        DwQEAwIBhjASBgkrBgEEAYI3FQEEBQIDAQABMCMGCSsGAQQBgjcVAgQWBBT90TFO0yaKleGY
+        YDuoMW+mPLzYLTAZBgkrBgEEAYI3FAIEDB4KAFMAdQBiAEMAQTAfBgNVHSMEGDAWgBQOrIJg
+        QFYnl+UlE/wq4QpTlVnkpDBQBgNVHR8ESTBHMEWgQ6BBhj9odHRwOi8vY3JsLm1pY3Jvc29m
+        dC5jb20vcGtpL2NybC9wcm9kdWN0cy9taWNyb3NvZnRyb290Y2VydC5jcmwwVAYIKwYBBQUH
+        AQEESDBGMEQGCCsGAQUFBzAChjhodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpL2NlcnRz
+        L01pY3Jvc29mdFJvb3RDZXJ0LmNydDANBgkqhkiG9w0BAQUFAAOCAgEAWTk+fyZGr+tvQLEy
+        tWrrDi9uqEn361917Uw7LddDrQv+y+ktMaMjzHxQmIAhXaw9L0y6oqhWnONwu7i0+Hm1SXL3
+        PupBf8rhDBdpy6WcIC36C1DEVs0t40rSvHDnqA2iA6VW4LiKS1fylUKc8fPv7uOGHzQ8uFaa
+        8FMjhSqkghyT4pQHHfLiTviMocroE6WRTsgb0o9ylSpxbZsa+BzwU9ZnzCL/XB3Nooy9J7J5
+        Y1ZEolHN+emjWFbdmwJFRC9f9Nqu1IIybvyklRPk62nnqaIsvsgrEA5ljpnb9aL6EiYJZTiU
+        8XofSrvR4Vbo0HiWGFzJNRZf3ZMdSY4tvq00RBzuEBUaAF3dNVshzpjHCe6FDoxPbQ4TTj18
+        KUicctHzbMrB7HCjV5JXfZSNoBtIA1r3z6NnCnSlNu0tLxfI5nI3EvRvsTxngvlSso0zFmUe
+        DordEN5k9G/ORtTTF+l5xAS00/ss3x+KnqwK+xMnQK3k+eGpf0a7B2BHZWBATrBC7E7ts3Z5
+        2Ao0CW0cgDEf4g5U3eWh++VHEK1kmP9QFi58vwUheuKVQSdpw5OPlcmN2Jshrg1cnPCiroZo
+        gwxqLbt2awAdlq3yFnv2FoMkuYjPaqhHMS+a3ONxPdcAfmJH0c6IybgY+g5yjcGjPa8CQGr/
+        aZuW4hCoELQ3UAjWwz0=
+      </X509Certificate>
+    </X509Data>
+  </KeyInfo>
+  <Object id="ts-countersig">
+    <X509Data>
+      <X509Certificate>
+        MIIEuzCCA6OgAwIBAgITMwAAAFnWc81RjvAixQAAAAAAWTANBgkqhkiG9w0BAQUFADB3MQswCQYD
+        VQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMV
+        TWljcm9zb2Z0IENvcnBvcmF0aW9uMSEwHwYDVQQDExhNaWNyb3NvZnQgVGltZS1TdGFtcCBQQ0Ew
+        HhcNMTQwNTIzMTcxMzE1WhcNMTUwODIzMTcxMzE1WjCBqzELMAkGA1UEBhMCVVMxCzAJBgNVBAgT
+        AldBMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xDTAL
+        BgNVBAsTBE1PUFIxJzAlBgNVBAsTHm5DaXBoZXIgRFNFIEVTTjpGNTI4LTM3NzctOEE3NjElMCMG
+        A1UEAxMcTWljcm9zb2Z0IFRpbWUtU3RhbXAgU2VydmljZTCCASIwDQYJKoZIhvcNAQEBBQADggEP
+        ADCCAQoCggEBAMZsTs9oU/3vgN7oi8Sx8H4Hzh487AyMNYdM6VE6vLawlndC+v88z+Ha4on6bkIA
+        mVsW3QlkOOJS+9+O+pOjPbuHj264h8nQYE/PnIKRbZEbchCz2EN8WUpgXcawVdAn2/L2vfIgxiIs
+        nmuLLWzqeATJS8FwCee2Ha+ajAY/eHD6du7SJBR2sq4gKIMcqfBIkj+ihfeDysVR0JUgA3nSV7wT
+        tU64tGxWH1MeFbvPMD/9OwHNX3Jo98rzmWYzqF0ijx1uytpl0iscJKyffKkQioXibS5cSv1JuXtA
+        sVPG30e5syNOIkcc08G5SXZCcs6Qhg4k9cI8uQk2P6hTXFb+X2ECAwEAAaOCAQkwggEFMB0GA1Ud
+        DgQWBBRbKBqzzXUNYz39mfWbFQJIGsumrDAfBgNVHSMEGDAWgBQjNPjZUkZwCu1A+3b7syuwwzWz
+        DzBUBgNVHR8ETTBLMEmgR6BFhkNodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9k
+        dWN0cy9NaWNyb3NvZnRUaW1lU3RhbXBQQ0EuY3JsMFgGCCsGAQUFBwEBBEwwSjBIBggrBgEFBQcw
+        AoY8aHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraS9jZXJ0cy9NaWNyb3NvZnRUaW1lU3RhbXBQ
+        Q0EuY3J0MBMGA1UdJQQMMAoGCCsGAQUFBwMIMA0GCSqGSIb3DQEBBQUAA4IBAQB68A30RWw0lg53
+        8OLAQgVh94jTev2I1af193/yCPbV/cvKdHzbCanf1hUHmb/QPoeEYnvCBo7Ki2jiPd+eWsWMsqlc
+        /lliJvXX+Xi2brQKkGVm6VEI8XzJo7cEN0bF54I+KFzvT3Gk57ElWuVDVDMIf6SwVS3RgnBIESAN
+        JoEO7wYldKuFw8OM4hRf6AVUj7qGiaqWrpRiJfmvaYgKDLFRxAnvuIB8U5B5u+mP0EjwYsiZ8WU0
+        O/fOtftmmLmiWZldPpWfFL81tPuYciQpDPO6BHqCOftGzfHgsha8fSD4nDkVJaEmLdaLgb3GvbCd
+        VP5HC18tTir0h+q1D7W37ZIp
+      </X509Certificate>
+    </X509Data>
+    <X509Data>
+      <X509Certificate>
+        MIIGBzCCA++gAwIBAgIKYRZoNAAAAAAAHDANBgkqhkiG9w0BAQUFADBfMRMwEQYKCZImiZPyLGQB
+        GRYDY29tMRkwFwYKCZImiZPyLGQBGRYJbWljcm9zb2Z0MS0wKwYDVQQDEyRNaWNyb3NvZnQgUm9v
+        dCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkwHhcNMDcwNDAzMTI1MzA5WhcNMjEwNDAzMTMwMzA5WjB3
+        MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwG
+        A1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSEwHwYDVQQDExhNaWNyb3NvZnQgVGltZS1TdGFt
+        cCBQQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCfoWyx39tIkip8ay4Z4b3i48WZ
+        USNQrc7dGE4kD+7Rp9FMrXQwIBHrB9VUlRVJlBtCkq6YXDAm2gBr6Hu97IkHD/cOBJjwicwfyzMk
+        h53y9GccLPx754gd6udOo6HBI1PKjfpFzwnQXq/QsEIEovmmbJNn1yjcRlOwhtDlKEYuJ6yGT1VS
+        DOQDLPtqkJAwbofzWTCd+n7Wl7PoIZd++NIT8wi3U21StEWQn0gASkdmEScpZqiX5NMGgUqi+YSn
+        EUcUCYKfhO1VeP4Bmh1QCIUAEDBG7bfeI0a7xC1Un68eeEExd8yb3zuDk6FhArUdDbH895uyAc4i
+        S1T/+QXDwiALAgMBAAGjggGrMIIBpzAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQjNPjZUkZw
+        Cu1A+3b7syuwwzWzDzALBgNVHQ8EBAMCAYYwEAYJKwYBBAGCNxUBBAMCAQAwgZgGA1UdIwSBkDCB
+        jYAUDqyCYEBWJ5flJRP8KuEKU5VZ5KShY6RhMF8xEzARBgoJkiaJk/IsZAEZFgNjb20xGTAXBgoJ
+        kiaJk/IsZAEZFgltaWNyb3NvZnQxLTArBgNVBAMTJE1pY3Jvc29mdCBSb290IENlcnRpZmljYXRl
+        IEF1dGhvcml0eYIQea0WoUqgpa1Mc1j0BxMuZTBQBgNVHR8ESTBHMEWgQ6BBhj9odHRwOi8vY3Js
+        Lm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9kdWN0cy9taWNyb3NvZnRyb290Y2VydC5jcmwwVAYI
+        KwYBBQUHAQEESDBGMEQGCCsGAQUFBzAChjhodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpL2Nl
+        cnRzL01pY3Jvc29mdFJvb3RDZXJ0LmNydDATBgNVHSUEDDAKBggrBgEFBQcDCDANBgkqhkiG9w0B
+        AQUFAAOCAgEAEJeKw1wDRDbd6bStd9vOeVFNAbEudHFbbQwTq86+e4+4LtQSooxtYrhXAstOIBNQ
+        md16QOJXu69YmhzhHQGGrLt48ovQ7DsB7uK+jwoFyI1I4vBTFd1Pq5Lk541q1YDB5pTyBi+FA+mR
+        KiQicPv2/OR4mS4N9wficLwYTp2OawpylbihOZxnLcVRDupiXD8WmIsgP+IHGjL5zDFKdjE9K3IL
+        yOpwPf+FChPfwgphjvDXuBfrTot/xTUrXqO/67x9C0J71FNyIe4wyrt4ZVxbARcKFA7S2hSY9Ty5
+        ZlizLS/n+YWGzFFW6J1wlGysOUzU9nm/qhh6YinvopspNAZ3GmLJPR5tH4LwC8csu89Ds+X57H21
+        46SodDW4TsVxIxImdgs8UoxxWkZDFLyzs7BNZ8ifQv+AeSGAnhUwZuhCEl4ayJ4iIdBD6Svpu/RI
+        zCzU2DKATCYqSCRfWupW76bemZ3KOm+9gSd0BhHudiG/m4LBJ1S2sWo9iaF2YbRuoROmv6pH8BJv
+        /YoybLL+31HIjCPJZr2dHYcSZAI9La9Zj7jkIeW1sMpjtHhUBdRBLlCslLCleKuzoJZ1GtmShxN1
+        Ii8yqAhuoFuMJb+g74TKIdbrHk/Jmu5J4PcBZW+JC33Iacjmbuqnl84xKf8OxVtc2E0bodj6L54/
+        LlUWa8kTo/0=
+      </X509Certificate>
+    </X509Data>
+    <CounterSignature xmlns="http://schemas.microsoft.com/xmldsig/timestamp/2003" ts-format="cms-timestamp-message">
+      MIIGyQYJKoZIhvcNAQcCoIIGujCCBrYCAQMxCzAJBgUrDgMCGgUAMIIBEwYJKoZIhvcNAQcBoIIB
+      BASCAQBf42HG4CWgF3pRyNfawFqfMyYmT5TIDWS2qNDfjEU0fWaSSYBn9KApd+keiD3/rtwB0ke8
+      AhVFD79EsHfrFLhJLFCxqh3J5Go+RPEFLl3iX7T0wk2lFWWrsVg4jDcEP+rnIYWfQKRqf6Mab6I/
+      F+xXbS/c4fsEM0PJ0VMWb/Gk8X99NCNTAAUNUz36IOOHZ+YyJI+Ap4aucpfEJ9cpItASqUeZ+1eO
+      mQFIQKqtglKAjBtOnmaNLGCTtQ/Udybotlgm6XwZ4CbWfetdbmjczF4T1gPYdx0kFkjzQPDyZMKe
+      NY8w4gqfvFLyTNwlHc/uh/B/Eb5mRgrUGgk+5br7oYy4oIIDcqGCA24wggJWAgEBMIHboYGxpIGu
+      MIGrMQswCQYDVQQGEwJVUzELMAkGA1UECBMCV0ExEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoT
+      FU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjENMAsGA1UECxMETU9QUjEnMCUGA1UECxMebkNpcGhlciBE
+      U0UgRVNOOkY1MjgtMzc3Ny04QTc2MSUwIwYDVQQDExxNaWNyb3NvZnQgVGltZS1TdGFtcCBTZXJ2
+      aWNloiUKAQEwCQYFKw4DAhoFAAMVAO2IVhrtGD1ohB21na3gAiflfKI0oIHCMIG/pIG8MIG5MQsw
+      CQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UE
+      ChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMQ0wCwYDVQQLEwRNT1BSMScwJQYDVQQLEx5uQ2lwaGVy
+      IE5UUyBFU046QjAyNy1DNkY4LTFEODgxKzApBgNVBAMTIk1pY3Jvc29mdCBUaW1lIFNvdXJjZSBN
+      YXN0ZXIgQ2xvY2swDQYJKoZIhvcNAQEFBQACBQDXgFbMMCIYDzIwMTQwNzI4MDQ1NzQ4WhgPMjAx
+      NDA3MjkwNDU3NDhaMHQwOgYKKwYBBAGEWQoEATEsMCowCgIFANeAVswCAQAwBwIBAAICD4cwBwIB
+      AAICGsAwCgIFANeBqEwCAQAwNgYKKwYBBAGEWQoEAjEoMCYwDAYKKwYBBAGEWQoDAaAKMAgCAQAC
+      AxbjYKEKMAgCAQACAwehIDANBgkqhkiG9w0BAQUFAAOCAQEAVAVPsKBO/GxKTuCq30dJIvHx/xuh
+      Jk+wOA+LyxA7gO7ShJwPLFbke61L4GW4oeGdSeBOppzqgg6lxezpCAh6ca4Tu5xtTcB0DxFXcPQA
+      KNkDLurGKdQwgOS7j+CvY/ETs8/N3od67r+AzuHn7hRl+9Dwq47QxRWOCJ9ws6FJLZ2Kp79CiB9Q
+      n57irMt3cPaZ4kDpaMQ5qWZzDZHyzuHhCv1Z+MjrKctLcBg/Wa9OD2qIR60tXta9PPHfKin/NUXP
+      gg0O5FtdmW86dVhQv09q7GFPLlisxfSwJ7Ty5/4CShH7TKAN9cSW9YUvWMVjs8hqsO9Oykw5wB7x
+      jFyTrs1VWDGCAhUwggIRAgEBMIGOMHcxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9u
+      MRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xITAfBgNV
+      BAMTGE1pY3Jvc29mdCBUaW1lLVN0YW1wIFBDQQITMwAAAFnWc81RjvAixQAAAAAAWTAJBgUrDgMC
+      GgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTQwNzI4MTAw
+      MzUzWjAjBgkqhkiG9w0BCQQxFgQUUWjA3rRpBVKMy/KuldES47iRxX4wDQYJKoZIhvcNAQEFBQAE
+      ggEAYsZTbKcoet4/7hR7jLU28dRZ+lrbXIwjDmawxcjJpWuTlhRDII9NjTs7kx+loRcbXAq8sVaY
+      4ZoFNoWplX10NbyIggPsWSZL4is1tqpsugf1ugUNfWl32f80h6r36hPhaS5WBd23GGv8g9G2RUb8
+      MzL6l29i+DvUJFOA6WKHpwhf3FxM6P2wwzdyrE9EEWMyimxoLeHElSqT1nEmwUvlUPvlpwzPaKOX
+      3zclF0w8UymWP1bVmZ8ujDyggjsbSqjX6Z7H6Jz+vOe4lnBH4kea1GxKs+DalzInHDEltxN5F8Qp
+      8SNn54l8H42pP+Ig89Vg+08VyCWND+N0IFSx4kiu1g==
+    </CounterSignature>
+  </Object>
+</Signature>
+</OfficeApp>

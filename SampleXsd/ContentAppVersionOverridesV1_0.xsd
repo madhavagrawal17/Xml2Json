@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ContentAppVersionOverrides" elementFormDefault="qualified" version="1.0"
+    targetNamespace="http://schemas.microsoft.com/office/contentappversionoverrides"
+    xmlns="http://schemas.microsoft.com/office/contentappversionoverrides"
+    xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+    xmlns:odoc="http://schemas.microsoft.com/internal/obd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:import schemaLocation="OfficeAppBasicTypesV1_0.xsd" namespace="http://schemas.microsoft.com/office/officeappbasictypes/1.0" />
+
+  <xs:complexType name="WebApplicationScopes">
+    <xs:annotation>
+      <xs:documentation>
+        Specifies the scope strings for any permissions that your application needs to external resources.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:element name="Scope" type="bt:LongString">
+        <xs:annotation>
+          <xs:documentation>
+            Specifies the scope string for one permission that your application needs to external resources.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="WebAppAuthorization" odoc:omit="true">
+    <xs:annotation>
+      <xs:documentation>
+        Specifies the scope permision the application needs to access a particular resource.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1" maxOccurs="1">
+      <xs:element name="Resource" type="bt:LongString" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Specifies a particular resource (url) used by the application's Web API.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Scopes" type="WebApplicationScopes" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Specifies the scope strings for any permissions that your application needs for this particular resource.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="WebAppAuthorizations" odoc:omit="true">
+    <xs:annotation>
+      <xs:documentation>
+        Specifies the authorizations the application needs to access external resources.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:element name="Authorization" type="WebAppAuthorization">
+        <xs:annotation>
+          <xs:documentation>
+            Specifies the scopes for permissions the application needs for a particular resource.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="WebApplicationInfo">
+    <xs:annotation>
+      <xs:documentation>
+        Specifies the required information of your multi-tenant application as registered with Microsoft.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1" maxOccurs="1">
+      <xs:element name="Id" type="bt:UUID" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Specifies the client id of your multi-tenant application as registered with Microsoft.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Resource" type="bt:LongString" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Specifies the resource for your application’s Web API.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Scopes" type="WebApplicationScopes" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Specifies the scope strings for any permissions that your application needs to external resources.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Authorizations" type="WebAppAuthorizations" minOccurs="0" maxOccurs="1" odoc:omit="true">
+        <xs:annotation>
+          <xs:documentation>Specifies the authorizations the application needs to access external resources.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ConnectedServiceControlsScopes" odoc:omit="true">
+    <xs:annotation>
+      <xs:documentation>
+        Specifies the scope strings for Connected Service Controls.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:element name="Scope" type="bt:LongString">
+        <xs:annotation>
+          <xs:documentation>
+            Specifies the scope string for one Connected Service Control.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ConnectedServiceControls" odoc:omit="true">
+    <xs:annotation>
+      <xs:documentation>
+        A parent node for ConnectedServiceControls.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1" maxOccurs="1">
+      <xs:element name="Scopes" type="ConnectedServiceControlsScopes" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Specifies the scope strings for Connected Service Controls.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="VersionOverridesV1_0">
+    <xs:annotation>
+      <xs:documentation>
+        Contains elements for the version 1.0 overrides of the Office content add-in manifest.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="WebApplicationInfo" type="WebApplicationInfo" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Specifies the required information of your multi-tenant application as registered with Microsoft.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ConnectedServiceControls" type="ConnectedServiceControls" minOccurs="0" maxOccurs="1" odoc:omit="true">
+        <xs:annotation>
+          <xs:documentation>A ConnectedServiceControls node.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:any id="VersionOverrides" minOccurs="0" maxOccurs="1" namespace="http://schemas.microsoft.com/office/contentappversionoverrides/1.1" processContents="lax">
+        <xs:annotation>
+          <xs:documentation>Contains elements for use in future versions of the Office add-in platform as they release. These elements may be overrides to previously defined elements or new elements.</xs:documentation>
+        </xs:annotation>
+       </xs:any>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="VersionOverrides" type="VersionOverridesV1_0">
+    <xs:annotation>
+      <xs:documentation>Specifies a collection of Office client application types. Data defined in this element overrides the same data present in the parent node of this element in the manifest for Office client applications that support this extended manifest content.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+</xs:schema>
